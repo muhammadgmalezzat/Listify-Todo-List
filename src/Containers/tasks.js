@@ -17,26 +17,11 @@ const Tasks = (props) => {
     const [filterStatus,setfilterStatus] = useState("all")
     const [completedTasksNum, setcompletedTasksNum] = useState(0)
 
-    const tasksNumber = () => {
-        const allTasks = props.todoList.length;
-        const completedNum=0
-        console.log(allTasks);
-        props.todoList.map((todo) => {
-            if (todo.status === "complete") {
-                completedNum++;
-            }
-        })
-        setcompletedTasksNum(completedNum)
-    }
     useEffect(() => {
         settodosList(props.todoList);
-        
-
-
     }, [todosList])
+
     useEffect(() => {
-        const allTasks = props.todoList.length;
-        console.log(props.todoList);
         let completedNum = 0
         props.todoList.map((todo) => {
             if (todo.status === "complete") { 
@@ -45,7 +30,7 @@ const Tasks = (props) => {
             }
         })
         setcompletedTasksNum(completedNum)
-     })
+    })
 
     const updateFilter = (e) => {
         setfilterStatus(e.target.value)

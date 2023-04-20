@@ -11,19 +11,6 @@ const getInitialTodo = () => {
     return [];
 };
 
-// [{
-//         id: '1',
-//         title: 'todo1',
-//         status: 'incomplete',
-//         time: '4/19/2023, 7:41:35 AM'
-//     },
-//     {
-//         id: '2',
-//         title: 'todo2',
-//         status: 'incomplete',
-//         time: '4/19/2023, 7:41:35 AM'
-//     }]
-        
 const initialState = {
     todosList:getInitialTodo() ,
     filterStatus:"all"
@@ -31,8 +18,6 @@ const initialState = {
 const todoReducer = (state = initialState, action) => {
     switch (action.type) {
         case "DELETE":
-            console.log("DELETE")
-            console.log(state.todosList)
             const todoList1 = window.localStorage.getItem('todosList');
             if (todoList1) {
                 const todoListArr1 = JSON.parse(todoList1);
@@ -49,8 +34,6 @@ const todoReducer = (state = initialState, action) => {
                 todosList: state.todosList.filter((todo) => { return todo.id !== action.id; })
             }
         case "ADD":
-            console.log("ADD")
-            console.log(action.todo)
             const todoList = window.localStorage.getItem('todosList');
             if (todoList) {
                 const todoListArr = JSON.parse(todoList);
@@ -73,13 +56,10 @@ const todoReducer = (state = initialState, action) => {
                 todosList: [...state.todosList, action.todo]
             }
         case "UPDATE":
-            console.log("UPDATE")
-            console.log(action.updateTodos)
 
             const todoList2 = window.localStorage.getItem('todosList');
             if (todoList2) { 
                 const todoListArr2 = [...action.updateTodos]
-                console.log(todoListArr2)
                 window.localStorage.setItem('todosList', JSON.stringify(todoListArr2));
             }
             return {
@@ -87,12 +67,9 @@ const todoReducer = (state = initialState, action) => {
                 todosList: [...action.updateTodos]
             }
         case "CHECK":
-            console.log("CHECK")
-            console.log(action.updateTodos)
             const todoList3 = window.localStorage.getItem('todosList');
             if (todoList3) { 
                 const todoListArr3 = [...action.updateTodos]
-                console.log(todoListArr3)
                 window.localStorage.setItem('todosList', JSON.stringify(todoListArr3));
             }
             return {
