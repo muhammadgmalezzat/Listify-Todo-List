@@ -36,7 +36,7 @@
 <div style="display:block; ">
   <h3 style="color:#facd8a ">Website Screenshot in Laptop screen </h3>
     <h4 style="color:#facd8a ">Home Page </h4>
-    <img src='ScreenShoots/photo_2023-11-25_21-16-52.jpg' width="90%" style="border-radius: 20px; margin: 30px;" >  
+    <img src='photo_2023-11-25_21-16-52.jpg' width="90%" style="border-radius: 20px; margin: 30px;" >  
     
     
     
