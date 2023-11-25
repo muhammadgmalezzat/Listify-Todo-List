@@ -1,70 +1,50 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 style="color:#facd8a ">Listify </h1>
 
-## Available Scripts
+## Listify To-Do List React Application   
 
-In the project directory, you can run:
 
-### `npm start`
+ A To-Do List app built with React and Redux
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h1 style="color:#facd8a "> Front-end Technologies and liberaries </h1>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    - HTML
+    - CSS
+    - JavaScript
+    - React.js
+    - Redux
+    - Tailwind CSS
+    - Framer motion
+    - React Icons
+    - MUI
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<h1 style="color:#facd8a "> User Stories & Features</h1>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    💹 User can add a to-do item by typing in the input field and add By pressing enter (or a button)
+    💹 the User can submit the to-do item and can see that being added to a list of to-do's.
+    💹 User can mark a to-do as completed
+    💹 User can remove a to-do item by pressing on a button 
+    💹 User can edit a to-do
+    💹 User can see a list with all the completed to-do's
+    💹 User can see a list with all the incompleted to-do's
+    💹 User can see the date and time when user created the to-do
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<div style="display:block; ">
+  <h3 style="color:#facd8a ">Website Screenshot in Laptop screen </h3>
+    <h4 style="color:#facd8a ">Home Page </h4>
+    <img src='ScreenShoots/photo_2023-11-25_21-16-52.jpg' width="90%" style="border-radius: 20px; margin: 30px;" >  
+    
+    
+    
+</div>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<h1 style="color:#facd8a "> Check out Website Preview Here </h1>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> [Listify.com](https://listify-todo-list.vercel.app/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
